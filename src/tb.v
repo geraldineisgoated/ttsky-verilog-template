@@ -4,7 +4,7 @@
 `define FINISH_WITH_FAIL error_o = 1; pass_o = 0; #10; $finish();
 `define FINISH_WITH_PASS pass_o = 1; error_o = 0; #10; $finish();
 
-module testbench
+module tb
 (
     output logic error_o = 1'bx,
     output logic pass_o  = 1'bx
